@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  /* Navbar styles */
+}
+
+.container {
+  position: relative;
+  background-color: white;
+  padding: 2rem 1.5rem;
+}
+
+.background-effect {
+  position: absolute;
+  inset: 0;
+  top: -10rem;
+  z-index: -10;
+  transform: translateX(-50%) rotate(30deg);
+  width: 36.125rem;
+  max-width: none;
+  background: linear-gradient(to top right, #ff80b5, #9089fc);
+  opacity: 0.3;
+  clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%);
+}
+
+.content {
+  max-width: 2xl;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.subheading {
+  margin-top: 0.5rem;
+  font-size: 1.125rem;
+  color: #666;
+}
+
+.contact-form {
+  margin-top: 4rem;
+  max-width: 40rem;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.form-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+label {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input, select, textarea {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  border: 1px solid #ccc;
+  font-size: 0.875rem;
+  color: #333;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #27AAE1;
+  outline: none;
+}
+
+.phone-number-group {
+  display: flex;
+}
+
+select {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  background-color: #27AAE1;
+  color: white;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #1c8fbf;
+}
+
+.switch-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.policy-link {
+  color: #27AAE1;
+  font-weight: bold;
+}
+
+.footer {
+  /* Footer styles */
+}
